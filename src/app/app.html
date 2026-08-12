@@ -1,0 +1,190 @@
+<!-- Main Page Container Layer -->
+<div class="container-fluid py-5 min-vh-100 d-flex align-items-center g-0">
+  <div class="row justify-content-center w-100 m-0">
+
+    <div class="col-12 d-flex align-items-center justify-content-center mb-4">
+      <div class="peacock-om-header">ॐ</div>
+    </div>
+
+    <!-- Invite greetings -->
+    <div class="col-12 d-flex flex-column align-items-center text-center px-3 mb-5">
+      @if(currentLanguage() === 'EN') {
+      <span class="divine fw-semibold mb-3">
+        Shri Vigneshwaraya Namaha!
+      </span>
+      <span class="child-element fw-bold mb-3">
+        With divine blessings and warm wishes of our elders, We invite you to celebrate our eldest son's
+      </span>
+      <span class="cute-font fw-semibold mb-4">
+        Engagement
+      </span>
+      } @else {
+      <span class="divine-telugu  fw-semibold mb-3">
+        శ్రీ విఘ్నేశ్వరాయ నమః!!
+      </span>
+      <span class="child-element-telugu fw-bold mb-3">
+        భగవంతుని దివ్య ఆశీస్సులతో మరియు మా కుటుంబ సభ్యుల హృదయ పూర్వక అభినందనలతో జరగబోయే మా ప్రథమ పుత్రుడి
+      </span>
+      <span class="cute-font-telugu fw-semibold mb-4">
+        నిశ్చితార్థం
+      </span>
+      <span class="child-element-telugu fw-bold mb-3">
+        వేడుకకు మిమ్మల్ని ఆహ్వానిస్తున్నాము
+      </span>
+      }
+      <img src="assets/ganesh-ji.png" alt="Ganesh" class="img-fluid ganesh-img">
+    </div>
+
+    <!-- Shiva and Parvathi maa hands -->
+    <div class="col-12 p-0 mb-5">
+      <img src="assets/Shiva-Parvathi-maa-hands.png" alt="hands" class="img-fluid w-100 d-block">
+    </div>
+    <!-- Names -->
+    <div class="col-12 d-flex flex-column align-items-center justify-content-center px-3 mb-5">
+      <div class="wreath-container" #wreathTrigger>
+        <img src="assets/wreath-cute.png" alt="Flower Wreath" class="img-fluid wreath-img">
+
+        @if(currentLanguage() === 'EN') {
+        <div class="circle-text text-center fw-bold">
+          Sravan Kumar <br>
+          <span class="parents-text d-block mt-2 fw-bold">(Eldest son of Jangam Kumaraswamy & Maheshwari)</span>
+          & <br>
+          Varsha
+          <span class="parents-text d-block mt-2 fw-bold">(Only daughter of Nandula Matham Prasanna vani & Ramesh Kumar)</span>
+        </div>
+        } @else {
+        <div class="circle-text-telugu text-center fw-bold">
+          చి.శ్రవణ్ కుమార్ <br>
+          <span class="parents-text d-block mt-2">(జంగం మహేశ్వరి మరియు కుమారస్వామి గార్ల ప్రథమ పుత్రుడు)</span>
+          & <br>
+          చి.ల.సౌ.వర్ష
+          <span class="parents-text d-block mt-2">(నందుల మఠం ప్రసన్న వాణి మరియు రమేష్ కుమార్ గార్ల ఏకైక పుత్రిక)</span>
+          </div>
+        }
+      </div>
+    </div>
+
+    <!-- Greetings for guests -->
+    <div class="col-12 d-flex flex-column align-items-center text-center px-3 mb-5">
+      @if(currentLanguage() === 'EN') {
+      <span class="child-element fw-bold mb-3">
+        Your blessings will strengthen the foundation of this divine union
+      </span>
+      } @else {
+      <span class="child-element-telugu fw-bold mb-3">
+        మీరు విచ్చేసి మా చిరంజీవులకు మీ అమూల్యమైన ఆశీస్సులు అందించాలని మనసారా ఆశిస్తున్నాము.
+      </span>
+      }
+    </div>
+
+    <!-- Final couple image -->
+    <div class="col-12 p-0 mb-5">
+      <img src="assets/cute-couple.png" alt="cute couple image" class="img-fluid w-100 d-block couple-img">
+    </div>
+
+    <!-- Muhurtham timings & Engagement Card -->
+    <div class="col-12 d-flex flex-column align-items-center justify-content-center px-3 mb-5">
+      <div class="peacock-engagement-card">
+        @if(currentLanguage() === 'EN') {
+        <div class="card-title">Engagement On</div>
+        } @else {
+        <div class="card-title">నిశ్చితార్థ ముహూర్తం</div>
+        }
+        <div class="arch-frame">
+          <div class="date-row">
+            <div class="date-block">
+              <span class="date-num">23</span>
+              @if(currentLanguage() === 'EN') {
+              <span class="date-label">AUG</span>
+              } @else {
+              <span class="date-label">ఆగస్టు</span>
+              }
+            </div>
+            <div class="date-divider"></div>
+            <div class="date-block">
+              <span class="date-num">2026</span>
+              @if(currentLanguage() === 'EN') {
+              <span class="date-label">SUNDAY</span>
+              } @else {
+              <span class="date-label">ఆదివారం</span>
+              }
+            </div>
+          </div>
+
+          <div class="date-row-time-divider"></div>
+          <div class="date-block pt-2">
+            @if(currentLanguage() === 'EN') {
+            <span class="date-num-time">11:00 AM</span>
+            <span class="date-label-time">Onwards</span>
+            } @else {
+            <span class="date-num-time">ఉదయం 11:00 గం॥</span>
+            <span class="date-label-time">నుండి ప్రారంభం</span>
+            }
+          </div>
+        </div>
+
+        <a href="https://maps.app.goo.gl/koWaHfSMB1mJ3A2PA" target="_blank" class="card-footer-link"
+          rel="noopener noreferrer">
+          <span class="pin-icon">📍</span>
+          @if(currentLanguage() === 'EN') {
+          5th Floor, Hotel Vengamamba Grand, Attapur, Hyderabad
+          } @else {
+          5వ అంతస్తు, హోటల్ వెంగమాంబ గ్రాండ్, అత్తాపూర్, హైదరాబాద్
+          }
+          <span class="clicking-hand">👆🏻</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Ending greetings -->
+    <div class="col-12 d-flex flex-column align-items-center text-center px-3 mb-5">
+      @if(currentLanguage() === 'EN') {
+      <span class="cute-font fw-semibold mb-3">
+        Shubham Bhavatu!
+      </span>
+      } @else {
+      <span class="cute-font-telugu fw-semibold mb-3">
+        శుభం భవతు!
+      </span>
+      }
+      <div class="peacock-om-header mt-2">卐</div>
+    </div>
+
+    <audio #bgMusic id="bg-music" loop preload="auto">
+      <source src="assets/ganesh.mp3" type="audio/mpeg">
+    </audio>
+
+  </div>
+</div>
+
+<!-- Music -->
+<div class="left-music-widget" (click)="toggleMusic($event)">
+  <button class="flute-fab" aria-label="Toggle Background Music">
+    <span class="flute-icon">🪈</span>
+    @if (!isAudioPlaying) {
+    <div class="mute-cross"></div>
+    }
+  </button>
+</div>
+
+@if (isAudioPlaying) {
+<div class="global-notes-stream">
+  <span class="note n1">♪</span>
+  <span class="note n2">♫</span>
+  <span class="note n3">♬</span>
+  <span class="note n4">♪</span>
+</div>
+}
+
+<audio #bgMusic id="bg-music" loop preload="auto">
+  <source src="assets/ganesh.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Language button -->
+<div class="right-lang-widget" (click)="toggleLanguage($event)">
+  <button class="lang-fab" aria-label="Switch Language">
+    <span class="lang-text">
+      @if(currentLanguage() === 'EN') { తెలుగు } @else { English }
+    </span>
+  </button>
+</div>
